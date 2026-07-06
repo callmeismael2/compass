@@ -2,7 +2,7 @@
 
 A Claude Code slash command that runs a full competitive UX analysis for any digital pattern and renders the results directly into Figma.
 
-You name a pattern and a platform. Compass pulls real screens from Mobbin, researches competitors, and builds a structured analysis in your Figma file — no manual copying, no tab switching.
+You name a pattern and a platform. Compass pulls real screens from Mobbin, researches competitors, and builds a structured analysis in your Figma file, no manual copying, no tab switching.
 
 ## What it produces
 
