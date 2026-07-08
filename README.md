@@ -83,10 +83,12 @@ Compass asks four questions one at a time:
 
 1. **Pattern** — what to analyze (e.g. `upsell and cross-sell`, `paywall`, `onboarding`, `churn save`)
 2. **Platform** — where to look (e.g. `iOS mobile`, `web desktop`, `Android mobile`)
-3. **Your product name** — used as the baseline row in all comparison tables (e.g. `Peacock`, `Spotify`)
+3. **Your product name** — used as the baseline row in all comparison tables (e.g. `Spotify`, `Netflix`, `Duolingo`)
 4. **Figma file key** — the key from your Figma file URL
 
 Confirm the inputs and Compass runs end-to-end. The Figma file is the deliverable — output is written directly to a new page, not to chat.
+
+> **Example:** Running `/compass` with pattern `add-ons`, platform `iOS mobile`, product `Spotify`, and your Figma file key produces a fully-populated page in about 30–40 minutes.
 
 ## Platform support
 
@@ -131,7 +133,11 @@ Mobbin's MCP returns static images only — video recordings and animations are 
 
 ## Output example
 
-*Screenshot coming soon — contributions welcome.*
+S1 grid — `add-ons` pattern, iOS mobile — 48 Mobbin screenshots across 8 sub-categories, colored by category:
+
+![Compass output — add-ons S1 grid, iOS mobile](docs/example-output.png)
+
+A full run produces 13 sections across ~24,000px of canvas: S0–S0.5 (methodology + positioning map) · S1 (48 Mobbin screenshots across 8 categories) · S1b (8 user flow strips) · S2–S3.5 (personas, journey maps, ideal wireframe) · S4–S4.5 (teardowns + sentiment) · S5–S8 (feature matrix, pattern synthesis, heuristic scorecard, accessibility flags) · S9 (gap map + P0/P1/P2 recommendations)
 
 ## License
 
